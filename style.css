@@ -508,7 +508,7 @@ section.sobre{
 @media screen and (max-width: 600px){
     header{
         background-color: white;
-        padding: 18px 18px;
+        padding: 10px 10px;
     }
     .center{
         padding: 0 38%;
