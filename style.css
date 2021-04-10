@@ -580,7 +580,7 @@ section.sobre{
         width: 100%;
         display: block;
         margin-right: 80px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .buttonx:hover{
         background-color: black;
