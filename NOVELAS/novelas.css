@@ -1,0 +1,672 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.centro{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-mobile{
+    display: none;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+/*.logo{
+    color: black;
+    text-align: left;
+    width: 50%;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 25px;
+}*/
+.menu{
+    width: 90%;
+    text-align: right;
+}
+/*.menu a{
+    color: black;
+    font-size: 30px;
+    transition: 0.4s;
+}
+.menu a:hover{
+    color: #007bff;
+}*/
+.menua{
+    width: 100%;
+    text-align:center;
+}
+.menua a{
+    color: #124265;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+.menua a:hover{
+    color: #007bff;
+}
+input[type=text]{outline:none}
+.btnBusca{
+    background-color:transparent;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius:25px;
+    width: 350px;
+}
+button{
+    background-color: blue;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
+.btnBuscar{
+    display: none;
+}
+.botao{
+    display: none;
+}
+.botao:hover{
+    display: none;
+}
+/*button:active {
+	position:relative;
+	top:1px;
+}*/
+.buttona{
+    background-color:steelblue;
+    display: inline-block;
+    padding: 9px 18px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttona:hover{
+    background-color: white;
+    color: steelblue;
+}
+.buttonz{
+    display: none;
+}
+.buttonx{
+    display: none;
+}
+.buttony{
+    display: none;
+}
+/*
+section main
+*/
+section.main{
+    background-image: url('img/novelas.jpg');
+    padding: 30px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner{
+    background-image: url('img/casal.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 2%;
+    padding: 150px;
+    margin-top: 20px;
+}
+.grow{ 
+    padding: 10px; 
+    background-color: transparent; 
+    color: white; 
+}
+.grow:hover{ 
+    padding: 20px; 
+    transition: 1s;
+}
+.banner h2{
+    color:white;
+    font-size: 50px;
+    margin: 10px 10px;
+    line-height: 50px;
+}
+.banner h1{
+    color:white;
+    font-size: 50px;
+    margin: 10px 10px;
+    line-height: 50px;
+}
+.titulo h2:hover{
+    color:gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.titulo p:hover{
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.banner p{
+    color:black;
+    margin: 10px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencial-single-a{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    background-color: white;
+    border-radius: 10px;
+    width: 48%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-a h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-a p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-a h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-a p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-b{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 49%;
+    margin-right: 1%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-b h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-b p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-b h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-b p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-c{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 54%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-c h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-c p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-c h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-c p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-d{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 43%;
+    margin-right: 1%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-d h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-d p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-d h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-d p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-e{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 1035px;
+    margin-right: 0%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-e h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-e p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-e h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-e p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-f{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 31%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-f h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-f p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-f h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-f p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-g{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 31%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-g h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-g p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-g h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-g p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-h{
+    background-image: url('img/.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    background-color: white;
+    width: 33%;
+    margin-right: 1%;
+    margin-top: 30px;
+    padding: 100px 100px;
+}
+.diferencial-single-h h2{
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.diferencial-single-h p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.diferencial-single-h h2:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.diferencial-single-h p:hover {
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+section.sobre{
+    padding: 80px 0;
+}
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+.chamada-sobre h2{
+    color: black;
+    text-transform: uppercase;
+}
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+.conteudo-sobre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 100px;
+}
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444;
+}
+/*.conteudo-sobre i{
+    color: #007bff;
+}*/
+@media screen and (max-width: 600px){
+    header{
+        background-color: white;
+        padding: 18px 18px;
+    }
+    .center{
+        padding: 0 38%;
+        text-align: center;
+    }
+    section.main{
+        padding: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .btnBuscar{
+        display: block;
+        background-color: white;
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius:20px;
+        width: 355px;
+        margin-top: 20px;
+    }
+    .botao{
+        display: block;
+        background-color: blue;
+        display: inline-block;
+        padding: 8px 8px;
+        color: white;
+        /*border: none;*/
+        border-radius: 20px;
+        transition: 0.4s;
+        margin-top: 10px;
+    }
+    .botao:hover{
+        display: block;
+        background-color: gray;
+        color: white;
+    }
+    .btnBusca{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .buttonz{
+        background-color: steelblue;
+        padding: 8px 16px;
+        color: white;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+    .buttonz:hover{
+        background-color: gray;
+        color: white;
+    }
+    .buttonx{
+        background-color: steelblue;
+        padding: 8px 16px;
+        color: white;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+    .buttonx:hover{
+        background-color: gray;
+        color: white;
+    }
+    .buttony{
+        background-color: steelblue;
+        padding: 8px 16px;
+        color: white;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        margin-right: 50px;
+        
+    }
+    .buttony:hover{
+        background-color: gray;
+        color: white;
+    }
+    .menua{
+        display: none;
+    }
+    .banner{
+        padding: 100px;
+        width: 100%;
+    }
+    .banner h2{
+        font-size: 35px;
+        line-height: 90%;
+    }
+    .banner p{
+        display: none;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+    .diferencial-single-a{
+        width: 100%;
+    }
+    .diferencial-single-a p{
+        display: none;
+    }
+    .diferencial-single-b{
+        width: 100%;
+    }
+    .diferencial-single-b p{
+        display: none;
+    }
+    .diferencial-single-c{
+        width: 100%;
+    }
+    .diferencial-single-c p{
+        display: none;
+    }
+    .diferencial-single-d{
+        width: 100%;
+    }
+    .diferencial-single-d p{
+        display: none;
+    }
+    .diferencial-single-e{
+        width: 99%;
+    }
+    .diferencial-single-e p{
+        display: none;
+    }
+    .diferencial-single-f{
+        width: 100%;
+    }
+    .diferencial-single-f p{
+        display: none;
+    }
+    .diferencial-single-g{
+        width: 100%;
+    }
+    .diferencial-single-g p{
+        display: none;
+    }
+    .diferencial-single-h{
+        width: 100%;
+    }
+    .diferencial-single-h p{
+        display: none;
+    }
+    .chamada-sobre {
+        width: 1100px;
+        line-height: 15px;
+        text-align: center;
+    }
+}

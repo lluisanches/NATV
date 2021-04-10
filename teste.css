@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.centernav{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-mobile{
+    display: none;
+}
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+div.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+input[type=text]{outline:none}
+.txtBusca{
+    background-color: tr;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius:25px;
+    width: 940px;
+    margin-top: -5px;
+}
+button{
+    background-color:red;
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100px;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+    margin-top: -5px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.buttona{
+    background-color:red;
+    display: inline-block;
+    padding: 8px 16px;
+    width: 90%;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttona:hover{
+    background-color: gray;
+    color: white;
+}
+.txtBuscab{
+    background-color:transparent;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius:25px;
+    width: 270px;
+}
+.buttonb{
+    background-color:#40E0D0;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttonb:hover{
+    background-color: gray;
+    color: white;
+}
+@media screen and (max-width: 768px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .paragrafo{
+        display: none;
+    }
+    .entretenimento{
+        display: none;
+    }
+    .jornalismo{
+        display: none;
+    }
+    .novelas{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: whitesmoke;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:active, a:hover{
+        background: none;
+        color: white;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .diferencial-single-a{
+        width: 100%;
+        margin-right: 2%;
+    }
+    .diferencial-single{
+        width: 100%;
+        margin-right: 2%;
+    }
+    .txtBusca{
+        width: 330px;
+        margin-top: 20px;
+    }
+    button{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}*/
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-mobile{
+    display: none;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+.logo{
+    color: black;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.menu{
+    width: 90%;
+    text-align: right;
+}
+.menu a{
+    color: #124265;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.menu a:hover{
+    color: #007bff;
+}*/ 
+/*.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}*/
+/*button:active {
+	position:relative;
+	top:1px;
+}*/
+.buttona{
+    background-color: rgb(4, 4, 206);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttona:hover{
+    background-color: gray;
+    color: white;
+}
+.buttonb{
+    background-color: rgb(4, 4, 206);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttonb:hover{
+    background-color: gray;
+    color: white;
+}
+.buttonc{
+    background-color: rgb(4, 4, 206);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttonc:hover{
+    background-color: gray;
+    color: white;
+}
+.buttond{
+    background-color: rgb(4, 4, 206);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    /*border: none;*/
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.buttond:hover{
+    background-color: gray;
+    color: white;
+}
+/*
+section main
+*/
+section.main{
+    background-image: url('img/inicial.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+.main__cta p{
+    color: grey;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.main__cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}*/
+.banner{
+    background-image: url('img/casal.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: below;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 2%;
+    padding: 150px;
+    margin-top: 20px;
+}
+.grow{ 
+    padding: 10px; 
+    background-color: transparent; 
+    color: white; 
+}
+.grow:hover{ 
+    padding: 20px; 
+    transition: 1s;
+}
+.banner h2{
+    color:white;
+    font-size: 50px;
+    margin: 10px 10px;
+    line-height: 50px;
+}
+.titulo h2:hover{
+    color:gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.titulo p:hover{
+    color: gold;
+    border-bottom: 5px hidden black;
+    transition: 0.4s;
+}
+.banner p{
+    color:black;
+    margin: 10px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencial-single{
+    border-radius: 10px;
+    background-color: white;
+    width: 48%;
+    margin-right: 2%;
+    margin-top: 20px;
+    padding: 100px;
+}
+.diferencial-single h2{
+    color: black;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+.diferencial-single-a{
+    border-radius: 10px;
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    margin-top: 30px;
+    padding: 100px;
+}
+.diferencial-single-a h2{
+    color: black;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.diferencial-single-a p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+.diferencial-single i{
+    color: black;
+    font-size: 23px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+.chamada-sobre h2{
+    color: black;
+    text-transform: uppercase;
+}
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+.conteudo-sobre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 100px;
+}
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444;
+}
+/*.conteudo-sobre i{
+    color: #007bff;
+}*/
+/*@media screen and (max-width: 768px){
+    .banner{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+    .conteudo-sobre p{width: 100%; margin: 20px 20px;}
+}
+*/
+@media screen and (max-width: 600px){
+    header{
+        background-color: white;
+        padding: 30px 30px;
+    }
+    section.main{
+        padding: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .menu {
+        display: none;
+    }
+    .banner{
+        padding: 100px;
+        width: 100%;
+    }
+    .banner h2{
+        font-size: 35px;
+        line-height: 90%;
+    }
+    .banner p{
+        display: none;
+    }
+    .diferencial-single-a{
+        width: 100%;
+        margin-right: 2%;
+    }
+    .diferencial-single{
+        width: 100%;
+        margin-right: 2%;
+    }
+    .conteudo-sobre p{width: 100%; margin: 10px 10px;}
+}
