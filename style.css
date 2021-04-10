@@ -579,8 +579,8 @@ section.sobre{
         transition: 0.4s;
         width: 100%;
         display: block;
-        margin-right: 80px;
-        margin-top: 0px;
+        margin-right: 40px;
+        margin-top: 10px;
     }
     .buttonx:hover{
         background-color: black;
