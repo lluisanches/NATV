@@ -505,7 +505,7 @@ section.sobre{
 /*.conteudo-sobre i{
     color: #007bff;
 }*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     header{
         background-color: white;
         padding: 18px 18px;
@@ -565,7 +565,7 @@ section.sobre{
         width: 100%;
         display: block;
         margin-top: 10px;
-        margin-right: 40px;
+        margin-right: 20px;
     }
     .buttonz:hover{
         background-color: black;
@@ -580,7 +580,7 @@ section.sobre{
         width: 100%;
         display: block;
         margin-right: 80px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .buttonx:hover{
         background-color: black;
@@ -595,7 +595,7 @@ section.sobre{
         width: 100%;
         display: block;
         margin-top: 20px;
-        margin-right: 55px;
+        margin-right: 30px;
         
     }
     .buttony:hover{
