@@ -505,7 +505,7 @@ section.sobre{
 /*.conteudo-sobre i{
     color: #007bff;
 }*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     header{
         background-color: white;
         padding: 18px 18px;
@@ -531,7 +531,7 @@ section.sobre{
         display: inline-block;
         padding: 8px 16px;
         border-radius:20px;
-        width: 270px;
+        width: 290px;
         margin-top: 20px;
     }
     .botao{
