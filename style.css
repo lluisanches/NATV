@@ -505,7 +505,7 @@ section.sobre{
 /*.conteudo-sobre i{
     color: #007bff;
 }*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     header{
         background-color: white;
         padding: 18px 18px;
