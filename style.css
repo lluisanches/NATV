@@ -515,7 +515,8 @@ section.sobre{
         text-align: center;
     }
     section.main{
-        padding: 30px 0;
+        max-width: 1100px;
+        padding: 10px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
