@@ -508,8 +508,9 @@ section.sobre{
 @media screen and (max-width: 600px){
     header{
         background-color: white;
-        padding: 10px 10px;
+        padding: 18px 18px;
     }
+
     .center{
         padding: 0 38%;
         text-align: center;
@@ -517,6 +518,11 @@ section.sobre{
     .menu{
         width: 100%;
         text-align: center;
+    }
+    .main{
+        background-image: url('img/inicial.jpg');
+        padding: 30px 30px;
+        
     }
     .Buscar{
         display: block;
