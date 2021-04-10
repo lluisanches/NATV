@@ -514,14 +514,6 @@ section.sobre{
         padding: 0 38%;
         text-align: center;
     }
-    section.main{
-        max-width: 1100px;
-        padding: 10px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
     .menu{
         width: 100%;
         text-align: center;
