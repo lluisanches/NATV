@@ -510,7 +510,6 @@ section.sobre{
         background-color: white;
         padding: 18px 18px;
     }
-
     .center{
         padding: 0 38%;
         text-align: center;
@@ -518,12 +517,6 @@ section.sobre{
     .menu{
         width: 100%;
         text-align: center;
-    }
-    .main{
-        background-image: url('img/inicial.jpg');
-        padding: 30px 0;
-        width: 100%;
-        
     }
     .Buscar{
         display: block;
