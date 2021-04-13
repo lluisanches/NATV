@@ -624,6 +624,175 @@ section.sobre{
         display: none;
     }
     .diferencial-single-a{
+        width: 90%;
+    }
+    .diferencial-single-a p{
+        display: none;
+    }
+    .diferencial-single-b{
+        width: 90%;
+    }
+    .diferencial-single-b p{
+        display: none;
+    }
+    .diferencial-single-c{
+        width: 90%;
+    }
+    .diferencial-single-c p{
+        display: none;
+    }
+    .diferencial-single-d{
+        width: 90%;
+    }
+    .diferencial-single-d p{
+        display: none;
+    }
+    .diferencial-single-e{
+        width: 90%;
+    }
+    .diferencial-single-e p{
+        display: none;
+    }
+    .diferencial-single-f{
+        width: 90%;
+    }
+    .diferencial-single-f p{
+        display: none;
+    }
+    .diferencial-single-g{
+        width: 90%;
+    }
+    .diferencial-single-g p{
+        display: none;
+    }
+    .diferencial-single-h{
+        width: 90%;
+    }
+    .diferencial-single-h p{
+        display: none;
+    }
+    .chamada-sobre {
+        width: 1100px;
+        line-height: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    body {
+        overflow-x: hidden;
+      }
+    header{
+        background-color: white;
+        padding: 18px 18px;
+    }
+    .center{
+        padding: 0 38%;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .Buscar{
+        display: block;
+        background-color: white;
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius:20px;
+        width: 290px;
+        margin-top: 20px;
+    }
+    .botao{
+        display: block;
+        background-color: black;
+        display: inline-block;
+        padding: 8px 8px;
+        color: white;
+        /*border: none;*/
+        border-radius: 20px;
+        transition: 0.4s;
+        margin-top: 10px;
+    }
+    .botao:hover{
+        display: block;
+        background-color: white;
+        color: black;
+    }
+    .btnBusca{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .buttonz{
+        background-color: white;
+        padding: 8px 16px;
+        color: black;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .buttonz:hover{
+        background-color: black;
+        color: white;
+    }
+    .buttonx{
+        background-color: white;
+        padding: 8px 16px;
+        color: black;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .buttonx:hover{
+        background-color: black;
+        color: white;
+    }
+    .buttony{
+        background-color: white;
+        padding: 8px 16px;
+        color: black;
+        border-radius: 25px;
+        transition: 0.4s;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        margin-right: 30px;
+        
+    }
+    .buttony:hover{
+        background-color: black;
+        color: white;
+    }
+    .menua{
+        display: none;
+    }
+    .banner{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        border-radius: 10px;
+        margin-right: 2%;
+        padding: 100px;
+        margin-top: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner h2{
+        font-size: 35px;
+        line-height: 90%;
+    }
+    .banner p{
+        display: none;
+    }
+    .diferencial-single-a{
         width: 100%;
     }
     .diferencial-single-a p{
