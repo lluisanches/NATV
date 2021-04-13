@@ -602,8 +602,7 @@ section.sobre{
         color: white;
     }
     .menua{
-        width: 100%;
-    text-align:center;
+        display: none;
     }
     .banner{
         background-position: center;
@@ -615,7 +614,7 @@ section.sobre{
         padding: 100px;
         margin-top: 20px;
         width: 100%;
-        max-width: 90%;
+        max-width: 100%;
     }
     .banner h2{
         font-size: 35px;
@@ -625,49 +624,49 @@ section.sobre{
         display: none;
     }
     .diferencial-single-a{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-a p{
         display: none;
     }
     .diferencial-single-b{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-b p{
         display: none;
     }
     .diferencial-single-c{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-c p{
         display: none;
     }
     .diferencial-single-d{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-d p{
         display: none;
     }
     .diferencial-single-e{
-        width: 90%;
+        width: 99%;
     }
     .diferencial-single-e p{
         display: none;
     }
     .diferencial-single-f{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-f p{
         display: none;
     }
     .diferencial-single-g{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-g p{
         display: none;
     }
     .diferencial-single-h{
-        width: 90%;
+        width: 100%;
     }
     .diferencial-single-h p{
         display: none;
