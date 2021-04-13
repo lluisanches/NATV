@@ -615,6 +615,7 @@ section.sobre{
         padding: 100px;
         margin-top: 20px;
         width: 100%;
+        max-block-size: 50px;
     }
     .banner h2{
         font-size: 35px;
