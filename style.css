@@ -606,6 +606,14 @@ section.sobre{
         display: none;
     }
     .banner{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        border-radius: 10px;
+        margin-right: 2%;
+        padding: 100px;
+        margin-top: 20px;
         width: 100%;
     }
     .banner h2{
