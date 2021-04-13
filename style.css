@@ -508,10 +508,9 @@ section.sobre{
 /*.conteudo-sobre i{
     color: #007bff;
 }*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
       }
     header{
         background-color: white;
@@ -615,7 +614,7 @@ section.sobre{
         padding: 100px;
         margin-top: 20px;
         width: 100%;
-        max-width: 100%;
+        max-width: 90%;
     }
     .banner h2{
         font-size: 35px;
