@@ -602,7 +602,8 @@ section.sobre{
         color: white;
     }
     .menua{
-        display: none;
+        width: 100%;
+    text-align:center;
     }
     .banner{
         background-position: center;
