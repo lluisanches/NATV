@@ -606,16 +606,6 @@ section.sobre{
         display: none;
     }
     .banner{
-        padding: 30px 30px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: initial;
-        border-radius: 10px;
-        margin-right: 2%;
-        padding: 150px;
-        margin-top: 20px;
-        padding: 100px;
         width: 100%;
     }
     .banner h2{
@@ -624,9 +614,6 @@ section.sobre{
     }
     .banner p{
         display: none;
-    }
-    .banner{
-        margin-top: 20px;
     }
     .diferencial-single-a{
         width: 100%;
