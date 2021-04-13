@@ -131,7 +131,7 @@ button:hover{
 section main
 */
 section.main{
-    background-color: white;
+    background-image: url('img/inicial.jpg');
     padding: 2000px;
     width: 2000px;
     background-position: center;
