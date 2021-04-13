@@ -508,7 +508,7 @@ section.sobre{
 /*.conteudo-sobre i{
     color: #007bff;
 }*/
-@media screen and (max-width: 600px){
+@media all and (max-width: 600px){
     body {
         overflow-x: hidden;
       }
