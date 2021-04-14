@@ -27,8 +27,9 @@ header{
     background-color: white;
     padding: 20px 0;
     border-bottom: 1px solid rgb(200,200,200);
+    top: 0;
 }
-/*.logo{
+.logo{
     color: black;
     text-align: left;
     width: 50%;
@@ -36,7 +37,7 @@ header{
 .logo h2{
     font-weight: normal;
     font-size: 25px;
-}*/
+}
 .menu{
     width: 90%;
     text-align: right;
@@ -63,7 +64,7 @@ header{
 .menua a:hover{
     color: #007bff;
 }
-.frase{
+.menub{
     display: none;
 }
 input[type=text]{outline:none}
@@ -139,7 +140,7 @@ section.main{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: below;
+    background-attachment: local;
     border-radius: 10px;
     width: 100%;
     margin-right: 2%;
